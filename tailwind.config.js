@@ -4,7 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'light-coffee': '#b89d89',
+        'coffee': {
+          50:'E8D6D0',
+          200: '#C89F94',
+          400:'#A25F4B',
+          600: '#744838'
+        },
       },
       fontFamily: {
         karla: ['Karla', 'sans-serif'],
