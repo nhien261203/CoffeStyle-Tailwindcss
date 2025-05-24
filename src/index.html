@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe Style</title>
     <link rel="stylesheet" href="../public/output.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:wght@100..700&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../public/img/favicon/dev.png">
 </head>
 
@@ -19,7 +21,7 @@
                         CoffeStyle.
                     </div>
                     <ul
-                        class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium">
+                        class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium ">
                         <li class="top-menu-item">
                             <a href="#">Home</a>
                         </li>
@@ -39,8 +41,8 @@
                             <a href="#">StyleGuide</a>
                         </li>
                     </ul>
-                    <ul class="flex justify-start items-center gap-6 uppercase text-sm text-gray-500 font-medium">
-                        <li class="top-menu-item flex items-center gap-1">
+                    <ul class="basis-3/6 flex justify-end lg:justify-end items-center gap-6 uppercase text-sm text-gray-500 font-medium">
+                        <li class="top-menu-item ">
                             <a href="#" class="flex items-center gap-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
@@ -52,6 +54,15 @@
                             </a>
                         </li>
                     </ul>
+
+                    <div class="basis-1/6 lg:hidden flex items-center cursor-pointer px-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="ct-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                    </div>
 
                 </nav>
             </header>

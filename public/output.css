@@ -573,6 +573,15 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -591,6 +600,10 @@ video {
 
 .basis-3\/6 {
   flex-basis: 50%;
+}
+
+.basis-1\/6 {
+  flex-basis: 16.666667%;
 }
 
 .cursor-pointer {
@@ -647,6 +660,16 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-center {
@@ -727,6 +750,38 @@ video {
   text-align: center;
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
 }
 
 
