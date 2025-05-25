@@ -597,6 +597,11 @@ video {
   margin-right: auto;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -637,28 +642,20 @@ video {
   height: 1.25rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-\[380px\] {
+  height: 380px;
+}
+
+.h-\[440px\] {
+  height: 440px;
 }
 
 .h-\[530px\] {
   height: 530px;
 }
 
-.h-\[540px\] {
-  height: 540px;
-}
-
 .h-full {
   height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[440px\] {
-  height: 440px;
 }
 
 .w-11\/12 {
@@ -738,21 +735,12 @@ video {
   gap: 0.25rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+.gap-8 {
+  gap: 2rem;
 }
 
 .bg-gray-900 {
@@ -786,6 +774,18 @@ video {
   background-image: url('../public/img/favicon/slider-coffe.jpg');
 }
 
+.bg-\[url\(\'\.\.\/public\/img\/f3\.jpg\'\)\] {
+  background-image: url('../public/img/f3.jpg');
+}
+
+.bg-\[url\(\'\.\.\/public\/img\/f4\.jpg\'\)\] {
+  background-image: url('../public/img/f4.jpg');
+}
+
+.bg-\[url\(\'\.\.\/public\/img\/f5\.jpg\'\)\] {
+  background-image: url('../public/img/f5.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -800,15 +800,6 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-2 {
@@ -970,6 +961,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-\[1\] {
+  color: 1;
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1081,11 +1076,6 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 
-.ct-product-card {
-  margin-bottom: 5rem;
-  height: 540px;
-}
-
 .ct-button {
   cursor: pointer;
   padding-top: 1rem;
@@ -1176,6 +1166,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1199,6 +1193,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -1209,6 +1207,10 @@ video {
 
   .lg\:justify-center {
     justify-content: center;
+  }
+
+  .lg\:gap-4 {
+    gap: 1rem;
   }
 
   .lg\:gap-8 {
