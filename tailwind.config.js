@@ -22,7 +22,7 @@ export default {
         
         fadeIn:{
           from: {opacity: 0},
-          to: {opacty: 1}
+          to: {opacity: 1}
         }
       },
       animation: {

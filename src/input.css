@@ -38,9 +38,11 @@
 }
 
 .ct-product-card{
-    @apply  h-[540px];
+    @apply  h-[540px] mb-20;
 }
 
-
+.ct-button{
+    @apply text-center uppercase tracking-widest py-4 px-8 text-[13px] font-semibold cursor-pointer hover:bg-gray-200;
+}
 
 
