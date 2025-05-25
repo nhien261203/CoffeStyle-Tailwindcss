@@ -19,9 +19,15 @@ export default {
           '0%': { transform: 'translateY(-100%)' },
           '100%': { transform: 'translateY(0%)' },
         },
+        
+        fadeIn:{
+          from: {opacity: 0},
+          to: {opacty: 1}
+        }
       },
       animation: {
         slideDown: 'slideDown 1s ease-in-out',
+        fadeIn : 'fadeIn 1s ease-in-out'
       },
     },
   },
