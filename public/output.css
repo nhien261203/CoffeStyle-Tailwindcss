@@ -891,60 +891,8 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\.\.\/public\/img\/f1\.jpg\'\)\] {
-  background-image: url('../public/img/f1.jpg');
-}
-
 .bg-\[url\(\'\.\.\/public\/img\/f2\.jpg\'\)\] {
   background-image: url('../public/img/f2.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/f3\.jpg\'\)\] {
-  background-image: url('../public/img/f3.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/f4\.jpg\'\)\] {
-  background-image: url('../public/img/f4.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/f5\.jpg\'\)\] {
-  background-image: url('../public/img/f5.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/favicon\/slider-coffe\.jpg\'\)\] {
-  background-image: url('../public/img/favicon/slider-coffe.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/magazine1\.jpg\'\)\] {
-  background-image: url('../public/img/magazine1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/magazine2\.jpg\'\)\] {
-  background-image: url('../public/img/magazine2.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/magazine3\.jpg\'\)\] {
-  background-image: url('../public/img/magazine3.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/paralax1\.jpg\'\)\] {
-  background-image: url('../public/img/paralax1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/st1\.jpg\'\)\] {
-  background-image: url('../public/img/st1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/st2\.jpg\'\)\] {
-  background-image: url('../public/img/st2.jpg');
-}
-
-.bg-\[url\(\'\.\.\/public\/img\/st3\.jpg\'\)\] {
-  background-image: url('../public/img/st3.jpg');
-}
-
-.bg-\[url\(\'\.\/img\/favicon\/slider-coffe\.jpg\'\)\] {
-  background-image: url('./img/favicon/slider-coffe.jpg');
 }
 
 .bg-\[url\(\'\.\/img\/f1\.jpg\'\)\] {
@@ -965,6 +913,10 @@ video {
 
 .bg-\[url\(\'\.\/img\/f5\.jpg\'\)\] {
   background-image: url('./img/f5.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/favicon\/slider-coffe\.jpg\'\)\] {
+  background-image: url('./img/favicon/slider-coffe.jpg');
 }
 
 .bg-\[url\(\'\.\/img\/magazine1\.jpg\'\)\] {
