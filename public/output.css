@@ -606,6 +606,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -696,6 +701,10 @@ video {
 
 .h-\[400px\] {
   height: 400px;
+}
+
+.h-\[300px\] {
+  height: 300px;
 }
 
 .w-11\/12 {
@@ -879,6 +888,18 @@ video {
   background-image: url('../public/img/paralax1.jpg');
 }
 
+.bg-\[url\(\'\.\.\/public\/img\/st1\.jpg\'\)\] {
+  background-image: url('../public/img/st1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/public\/img\/st2\.jpg\'\)\] {
+  background-image: url('../public/img/st2.jpg');
+}
+
+.bg-\[url\(\'\.\.\/public\/img\/st3\.jpg\'\)\] {
+  background-image: url('../public/img/st3.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -933,6 +954,10 @@ video {
   padding-left: 2rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -982,6 +1007,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
 }
 
 .font-bold {
@@ -1321,6 +1350,10 @@ video {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 }
 
